@@ -1,12 +1,10 @@
-User Data API with mongoDB and redis
-Demo: https://samuel-laluyan.herokuapp.com/
-Postman collection: https://www.getpostman.com/collections/0ffa73f6510738c48f61
+## User Data API with mongoDB and redis
 
-Make a POST request `/users/` first to get token for accessing user
+- Demo: https://samuel-laluyan.herokuapp.com/
+- Postman collection: https://www.getpostman.com/collections/0ffa73f6510738c48f61
+- Make a POST request `/users/` first to get token for accessing user
 
-### Users
-
-List of routes:
+### List of routes:
 
 | Route                         | HTTP    | Descriptions                    |
 | :-------------------------    | :------ | :------------------------------ |
@@ -18,7 +16,7 @@ List of routes:
 | `/users/:id`                  | DELETE  | DELETE a user                   |
 | `/users/:id`                  | PUT     | Update a user with new info     |
 
--
+
 ### Usage
 #### Local
 ```
