@@ -2,7 +2,7 @@
 
 - Demo: https://samuel-laluyan.herokuapp.com/
 - Postman collection: https://www.getpostman.com/collections/0ffa73f6510738c48f61
-- Make a POST request `/users/` first to get token for accessing user
+- Make a POST request create a user first `/users/` to retrieve token for accessing API
 
 ### List of routes:
 
