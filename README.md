@@ -29,5 +29,5 @@
 #### Docker
 ```
 1. docker build -t samuel-laluyan .
-2. ./start-docker.sh
+2. edit ./start-docker.sh then run
 ```
