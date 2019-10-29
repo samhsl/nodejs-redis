@@ -1,4 +1,4 @@
-## User Data API with mongoDB and redis
+## User Data Node.js API with MongoDB and Redis
 
 - Demo: https://samuel-laluyan.herokuapp.com/
 - Postman collection: https://www.getpostman.com/collections/0ffa73f6510738c48f61
@@ -20,9 +20,10 @@
 ### Usage
 #### Local
 ```
+1. Make sure you have Node.js, MongoDB and Redis on your machine
 1. Rename .env-local to .env, edit .env if neccesary
 2. npm install
-3. npm app.js
+3. node app.js
 
 ```
 
