@@ -6,15 +6,15 @@
 
 ### List of routes:
 
-| Route                         | HTTP    | Descriptions                    |
-| :-------------------------    | :------ | :------------------------------ |
-| `/users/`                     | GET     | Get all the users               |
-| `/users/:id`                  | GET     | Get a single user               |
-| `/users/`                     | POST    | Create a user                   |
-| `/users/accountNumber/`       | GET     | Get a user by accountNumber     |
-| `/users/identityNumber/`      | GET     | Get a  user by identityNumber   |
-| `/users/:id`                  | DELETE  | DELETE a user                   |
-| `/users/:id`                  | PUT     | Update a user with new info     |
+| Route                                   | HTTP    | Descriptions                    |
+| :-------------------------------------  | :------ | :------------------------------ |
+| `/users/`                               | GET     | Get all the users               |
+| `/users/:id`                            | GET     | Get a single user               |
+| `/users/`                               | POST    | Create a user                   |
+| `/users/accountNumber/:accountNumber`   | GET     | Get a user by accountNumber     |
+| `/users/identityNumber/:identityNumber` | GET     | Get a  user by identityNumber   |
+| `/users/:id`                            | DELETE  | DELETE a user                   |
+| `/users/:id`                            | PUT     | Update a user with new info     |
 
 
 ### Usage
